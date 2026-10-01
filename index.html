@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aves del Mundo</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <!-- Encabezado -->
+
+    <header>
+
+        <h1>Aves del Mundo</h1>
+
+        <p>Conociendo un poquito más sobre nuestras aves</p>
+
+        <nav>
+
+            <button onclick="mostrarSeccion('inicio')">
+                Inicio
+            </button>
+
+            <button onclick="mostrarSeccion('aves')">
+                Aves
+            </button>
+
+            <button onclick="mostrarSeccion('informacion')">
+                Información
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Contenido principal -->
+
+    <div class="pagina">
+
+        <!-- Columna izquierda -->
+
+        <aside>
+
+            <h3>¿Sabías que?</h3>
+
+            <p>
+                Las aves son animales vertebrados que tienen
+                plumas, pico y alas.
+            </p>
+
+            <img
+                src="https://images.unsplash.com/photo-1522926193341-e9ffd686c60f?auto=format&fit=crop&w=500&q=80"
+                alt="Ave pequeña"
+            >
+
+            <h4>Dato curioso</h4>
+
+            <p>
+                No todas las aves pueden volar. Algunos ejemplos
+                son los pingüinos y las avestruces.
+            </p>
+
+        </aside>
+
+
+        <!-- Contenido -->
+
+        <main>
+
+            <!-- INICIO -->
+
+            <section id="inicio" class="seccion activa">
+
+                <div class="tarjeta">
+
+                    <img
+                        class="imagen-grande"
+                        src="https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=900&q=80"
+                        alt="Ave en la naturaleza"
+                    >
+
+                    <h2>Bienvenidos a Aves del Mundo</h2>
+
+                    <p>
+                        Las aves son animales muy interesantes que
+                        podemos encontrar en diferentes lugares
+                        del planeta.
+                    </p>
+
+                    <p>
+                        En esta página podrás conocer algunos tipos
+                        de aves, sus características y algunos datos
+                        interesantes sobre ellas.
+                    </p>
+
+                    <div class="decoracion">
+                        Aves, naturaleza y vida
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- AVES -->
+
+            <section id="aves" class="seccion">
+
+                <div class="tarjeta">
+
+                    <h2>Algunas aves</h2>
+
+
+                    <!-- Colibrí -->
+
+                    <div class="ave">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1520637836862-4d197d17c55a?auto=format&fit=crop&w=500&q=80"
+                            alt="Colibrí"
+                        >
+
+                        <div>
+
+                            <h3>Colibrí</h3>
+
+                            <p>
+                                El colibrí es un ave pequeña que puede
+                                mover sus alas muy rápidamente. Se
+                                alimenta principalmente del néctar
+                                de las flores.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Loro -->
+
+                    <div class="ave">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1555169062-013468b47731?auto=format&fit=crop&w=500&q=80"
+                            alt="Loro"
+                        >
+
+                        <div>
+
+                            <h3>Loro</h3>
+
+                            <p>
+                                Los loros son aves conocidas por sus
+                                colores y por su capacidad para
+                                imitar algunos sonidos.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Ave silvestre -->
+
+                    <div class="ave">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=500&q=80"
+                            alt="Ave silvestre"
+                        >
+
+                        <div>
+
+                            <h3>Ave silvestre</h3>
+
+                            <p>
+                                Existen miles de especies de aves.
+                                Pueden vivir en bosques, ciudades,
+                                montañas, costas y muchos otros
+                                lugares.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- INFORMACIÓN -->
+
+            <section id="informacion" class="seccion">
+
+                <div class="tarjeta">
+
+                    <h2>Información sobre las aves</h2>
+
+                    <p>
+                        Las aves son animales vertebrados que se
+                        caracterizan principalmente por tener
+                        plumas, pico y alas.
+                    </p>
+
+
+                    <h3>Características</h3>
+
+                    <ul>
+
+                        <li>Tienen plumas.</li>
+
+                        <li>Tienen pico.</li>
+
+                        <li>Respiran por pulmones.</li>
+
+                        <li>Ponen huevos.</li>
+
+                        <li>Muchas especies pueden volar.</li>
+
+                    </ul>
+
+
+                    <h3>¿Dónde viven?</h3>
+
+                    <p>
+                        Las aves pueden vivir prácticamente en todo
+                        el mundo. Algunas viven en bosques, otras
+                        en desiertos, ciudades, montañas o cerca
+                        del mar.
+                    </p>
+
+
+                    <h3>¿Por qué son importantes?</h3>
+
+                    <p>
+                        Las aves forman parte de los ecosistemas
+                        y ayudan a mantener el equilibrio de la
+                        naturaleza. Algunas también ayudan a
+                        transportar semillas y polinizar flores.
+                    </p>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+
+    <!-- Pie de página -->
+
+    <footer>
+
+        <p>
+            Proyecto escolar | CBTis 116
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
